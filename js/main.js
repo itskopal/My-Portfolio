@@ -137,7 +137,7 @@ const scrollUp = () =>{
 	this.scrollY >= 350 ? scrollUp.classList.add('show-scroll')
 						: scrollUp.classList.remove('show-scroll')
 }
-window.addEventListener('scroll', scrollUp)
+window.addEventListener('scroll', scrollUp)  
 
 /*=============== DARK LIGHT THEME ===============*/ 
 const themeButton = document.getElementById('theme-button')
